@@ -63,6 +63,28 @@
 }
 /* contact-us */
 .contact-us {
+  color: white;
   padding: 80px 0;
   background-image: url(../assets/backgrounds/c_image.jpg);
+}
+.clean-background {
+  /* background-color: transparent; */
+  /* font-weight: bold; */
+}
+
+/* social-icons */
+
+.social-icons {
+  padding:30px;
+}
+
+/* footer-section */
+
+.footer-section {
+  text-align: center;
+  font-size: 85%;
+}
+
+.social-icon-spacing {
+  padding: 10px;
 }
