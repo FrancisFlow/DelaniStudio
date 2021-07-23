@@ -1,6 +1,10 @@
 
 /* welcome-section */
 .welcome-section {
+  /* padding-left: 40px; */
+  /* padding-right: 40px; */
+  /* padding-top: 80px; */
+  /* padding-bottom: 60px; */
   text-align: center;
   background-image: url(../assets/backgrounds/h_img.jpg);
   background-size: contain;
@@ -8,15 +12,17 @@
   color: white;
 }
 .welcomeStlye {
+  padding-top: 16px;
 
 }
+
 .logoStyle {
-  padding-top: 170px;
-  padding-bottom: 10px;
+  padding-top: 180px;
+  padding-bottom: 30px;
 }
 .mouseStyle {
-  padding-top: 130px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
+  padding-top: 125px;
 }
 
 .tag-line {
@@ -26,4 +32,11 @@
 .about-us {
   padding: 30px;
   text-align: center;
+}
+/* services */
+.services {
+  padding:95px 0;
+  color: white;
+  text-align: center;
+  background-image: url(../assets/backgrounds/s_image.jpg);
 }
