@@ -12,7 +12,7 @@
   color: white;
 }
 .welcomeStlye {
-  padding-top: 16px;
+  padding-top: 18px;
 
 }
 
@@ -39,4 +39,14 @@
   color: white;
   text-align: center;
   background-image: url(../assets/backgrounds/s_image.jpg);
+}
+/* what-we-do */
+
+.what-we-do {
+  text-align: center;
+  padding: 40px 0;
+}
+.services_icons {
+  margin: 25px 0;
+  padding: 0 20px;
 }
