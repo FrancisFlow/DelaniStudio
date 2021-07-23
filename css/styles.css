@@ -1,3 +1,29 @@
-body {
-  background-color: green;
+
+/* welcome-section */
+.welcome-section {
+  text-align: center;
+  background-image: url(../assets/backgrounds/h_img.jpg);
+  background-size: contain;
+  background-repeat: round;
+  color: white;
+}
+.welcomeStlye {
+
+}
+.logoStyle {
+  padding-top: 170px;
+  padding-bottom: 10px;
+}
+.mouseStyle {
+  padding-top: 130px;
+  padding-bottom: 10px;
+}
+
+.tag-line {
+  font-size: 12px;
+}
+/* about-us */
+.about-us {
+  padding: 30px;
+  text-align: center;
 }
