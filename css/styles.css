@@ -68,10 +68,12 @@
   background-image: url(../assets/backgrounds/c_image.jpg);
 }
 .clean-background {
-  /* background-color: transparent; */
-  /* font-weight: bold; */
+  background-color: transparent;
 }
-
+.form-control::placeholder {
+  color: white;
+  opacity: 1;
+}
 /* social-icons */
 
 .social-icons {
