@@ -52,13 +52,13 @@
 }
 
 .services_icons {
-  margin: 25px 0;
-  padding: 10px;
+  padding-top: 20px;
+
 }
 .what-we-do-description {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-weight:600;
+  font-weight:500;
 }
 
 /* portfolio */
@@ -73,11 +73,11 @@
 /* contact-us */
 .contact-us {
   color: white;
-  padding-bottom: 60px;
-  padding-top: 30px;
+  padding: 30px 60px 40px;
   text-align: center;
   background-image: url(../assets/backgrounds/c_image.jpg);
   background-size: cover;
+  background-position: center center;
 }
 input {
   padding: 10px;
