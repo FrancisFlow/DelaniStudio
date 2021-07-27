@@ -1,4 +1,5 @@
-#Delani Studio.
+##Delani Studio.
+![DelaniStudio](./DelaniStudio.jpg)
 #### A landing page for Delani Studio, a software development company. 27th July, 2021.
 #### Author:**Francis Ngigi**
 ## Description
