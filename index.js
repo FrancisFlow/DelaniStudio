@@ -76,14 +76,13 @@ $(document).ready(function() {
 
 // contact-us-section
 
-  function messageRecieved(name, email, message) {
-    name = $("#nameEntered").val();
-    email = $("#email").val();
-    message = $("#message").val();
-    if (name != 0 && email != 0 && message != 0) {
-      return alert("Message recieved, " + name + ". Thank you. Have a good one!" );
-    }
-    else {
-      return alert("Please ensure you filled in all the required fields");
-    }
+function messageRecieved(name, email, message) {
+  name = $("#nameEntered").val();
+  email = $("#email").val();
+  message = $("#message").val();
+  if (name != 0 && email != 0 && message != 0) {
+    return alert("Message recieved, " + name + ". Thank you. Have a good one!");
+  } else {
+    return alert("Please ensure you filled in all the required fields");
   }
+}
