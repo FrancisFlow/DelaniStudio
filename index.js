@@ -73,3 +73,23 @@ $(document).ready(function() {
     $(".image8-description").removeClass("black-description");
   });
 });
+
+// contact-us-section
+
+  function messageRecieved(name, email, message) {
+    name = $("#nameEntered").val();
+    email = $("#email").val();
+    message = $("#message").val();
+  //
+    if (name != 0 && email != 0 && message != 0) {
+      return alert("Message recieved, " + name + ". Have a good one!");
+    }
+    else {
+      return alert("Please ensure you filled in all the required fields");
+    }
+  }
+  // function removeElements () {
+  //   nameCleared= $("#namedEntered").val();
+  //
+  //   return
+  // }

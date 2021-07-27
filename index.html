@@ -139,16 +139,16 @@
             <h2 class="contact-us-heading">CONTACT US</h2>
             <form action="index.html" method="post">
               <div class="form-group form-check-inline col-lg-5">
-                <input type="text" class="form-control clean-background" id="Name.." placeholder="Name...">
+                <input type="text" class="form-control clean-background" id="nameEntered" placeholder="Name...">
               </div>
               <div class="form-group form-check-inline col-lg-5">
                 <input type="email" class="form-control clean-background" id="email" placeholder="email...">
               </div>
               <div class="form-group form-check-inline col-lg-9">
-                <textarea type="text" class="form-control clean-background" id="message" rows="7" placeholder="Your message here..."></textarea>
+                <textarea type="text" class="form-control clean-background" id="message" cols="30" rows="7" placeholder="Your message here..."></textarea>
               </div>
-              <div class="form-group">
-                <button type="button" class="btn btn btn-md" name="button">Send</button>
+              <div class="button">
+                <button type="button" onclick="messageRecieved(name, email, message)" onclick="removeElements()" class="btn btn-primary" name="button">Send Message</button>
               </div>
             </form>
           </div>
