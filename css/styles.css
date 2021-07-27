@@ -16,8 +16,8 @@
 }
 
 .logoStyle {
-  padding-top: 160px;
-  padding-bottom: 20px;
+  padding-top: 170px;
+  padding-bottom: 10px;
 }
 
 .mouseStyle {
@@ -99,29 +99,49 @@
 /* contact-us */
 .contact-us {
   color: white;
-  padding: 30px 60px 40px;
+  padding: 0 155px 0 0;
   text-align: center;
   background-image: url(../assets/backgrounds/c_image.jpg);
   background-size: cover;
   background-position: center center;
+  align-items: center;
 }
 input {
-  padding: 10px;
-  margin: 10px;
-}
-
-.contact-us-heading {
   padding-top: 20px;
-  padding-bottom: 10px;
+  height: 80%;
+  position: relative;
+  left: 60px;
+  bottom:24px;
+}
+.button {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  position: relative;
+  left: 40px;
+}
+.contact-us-heading {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+  left:20px;
 }
 .clean-background {
   background-color: transparent;
 }
+textarea {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  left: 70px;
+  bottom: 23px;
+}
 
 .form-control::placeholder {
+  font-weight: 600;
   color: white;
   opacity: 1;
 }
+
 /* social-icons */
 .social-icons {
   text-align: center;
