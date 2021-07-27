@@ -1,5 +1,5 @@
 ##Delani Studio.
-![DelaniStudio](/DelaniStudio.jpg)
+![DelaniStudio](../assets/DelaniStudio.jpg)
 #### A landing page for Delani Studio, a software development company. 27th July, 2021.
 #### Author:**Francis Ngigi**
 ## Description
@@ -25,4 +25,4 @@ As of release, no known bugs.
 In case of any emerging issue, feedback, good or bad, reach out to me at francisngigi1@gmail.com. All responses are welcome.
 ### License
 *Licensed under the [MIT-LICENSE](LICENSE)*
-Copyright (c) 2021 **Francis Ngigi**
+Copyright (c) 2021 ** John Muvati && Francis Ngigi**
